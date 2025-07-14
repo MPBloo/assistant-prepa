@@ -6,6 +6,7 @@ from datetime import datetime
 
 from carnet_erreurs import ajouter_erreur
 from carnet_reussis import ajouter_reussi
+from utils.joueur import charger_joueur, sauvegarder_joueur, ajouter_xp, mettre_a_jour_streak
 
 # --- Timer session ---
 if "session_en_cours" in st.session_state and st.session_state.session_en_cours:
@@ -115,6 +116,12 @@ if st.session_state.exo_index < len(elements):
             if note:
                 titre = item.get("titre", item["question"][:50])
                 ajouter_reussi(chapitre, titre, note)
+
+                joueur = charger_joueur()
+                joueur = ajouter_xp(joueur, 20)
+                joueur = mettre_a_jour_streak(joueur)
+                sauvegarder_joueur(joueur)
+
                 st.session_state.reponse_exo = None
                 st.session_state.exo_index += 1
                 st.rerun()
@@ -129,6 +136,12 @@ if st.session_state.exo_index < len(elements):
             if erreur and methode:
                 titre = item.get("titre", item["question"][:50])
                 ajouter_erreur(chapitre, titre, erreur, methode, item["question"])
+
+                joueur = charger_joueur()
+                joueur = ajouter_xp(joueur, 5)
+                joueur = mettre_a_jour_streak(joueur)
+                sauvegarder_joueur(joueur)
+
                 st.session_state.reponse_exo = None
                 st.session_state.exo_index += 1
                 st.rerun()
@@ -138,3 +151,4 @@ else:
     st.success("🎉 Vous avez terminé tous les éléments de ce chapitre.")
     if st.button("Retour à l’accueil"):
         st.switch_page("pages/1_accueil.py")
+
