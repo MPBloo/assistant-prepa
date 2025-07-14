@@ -64,7 +64,3 @@ else:
 # 🔵 Message de motivation en bas
 st.markdown("---")
 st.markdown("💡 *“Celui qui progresse un peu chaque jour ira loin. Courage !”*")
-
-# Message de motivation
-st.markdown("---")
-st.markdown("💡 *“Celui qui progresse un peu chaque jour ira loin. Courage !”*")
