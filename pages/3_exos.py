@@ -151,4 +151,3 @@ else:
     st.success("🎉 Vous avez terminé tous les éléments de ce chapitre.")
     if st.button("Retour à l’accueil"):
         st.switch_page("pages/1_accueil.py")
-
