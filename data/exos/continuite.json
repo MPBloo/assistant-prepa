@@ -1,0 +1,21 @@
+[
+  {
+    "titre": "Champ magnétique et fém",
+    "question": "On considère un anneau conducteur dans un champ magnétique croissant. Quelle loi permet de déterminer la tension induite ?",
+    "indice": "Pense à la loi reliant le flux magnétique à la fém.",
+    "solution": "La loi de Faraday : emf = - dΦ/dt"
+  },
+  {
+    "titre": "Flux magnétique",
+    "question": "Quelle est l'expression du flux magnétique si B est uniforme ?",
+    "indice": "Le flux est une intégrale de surface du champ B.",
+    "solution": "Φ = B(t) × A si B est uniforme et perpendiculaire à la surface."
+  },
+  {
+    "titre": "Force électromotrice",
+    "question": "Déduis la force électromotrice induite à partir du flux.",
+    "indice": "Utilise emf = -dΦ/dt",
+    "solution": "emf = -A × dB/dt"
+  }
+]
+

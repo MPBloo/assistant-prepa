@@ -1,0 +1,20 @@
+{
+  "Complexes": [
+    {
+      "titre": "Exercice 330",
+      "erreur": "ok",
+      "note": "ok",
+      "question": "\\(Écrire sous forme algébrique a = 1 +i2, b = 3 - 2i1 -i\\ - 2 +i2, c = \\frac{3 - 2i}{2 + 5i}, d = 4 + i\\ 1 - i\\ + 2 - i\\ 3 - i, e = 1 + i\\ i\\ 3\\)",
+      "corrige": false,
+      "date_ajout": "2025-07-13"
+    },
+    {
+      "titre": "Exercice 331",
+      "erreur": "ok",
+      "note": "ok",
+      "question": "\\(Pour n N, calculer in\\)",
+      "corrige": false,
+      "date_ajout": "2025-07-13"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "titre": "Exercice 330",
+    "question": "Écrire sous forme algébrique les nombres suivants :\n\n\\[ a = 1 + 2i, \\quad b = 3 - 2i - i - 2 + 2i, \\quad c = \\frac{3 - 2i}{2 + 5i}, \\\\ d = 4 + i - 1 - i + 2 - i + 3 - i, \\quad e = 1 + i \\cdot i \\cdot 3 \\]",
+    "indice": "",
+    "solution": "On effectue les calculs pour chaque nombre :\n\\[\n\\begin{align*}\na &= 1 + 2i \\\\\nb &= 3 - 2i - i - 2 + 2i = 1 - i \\\\\nc &= \\frac{3 - 2i}{2 + 5i} = \\frac{(3 - 2i)(2 - 5i)}{(2 + 5i)(2 - 5i)} = \\frac{6 - 15i - 4i + 10i^2}{4 + 25} = \\frac{6 - 19i - 10}{29} = \\frac{-4 - 19i}{29} \\\\\nd &= 4 + i - 1 - i + 2 - i + 3 - i = 8 - 2i \\\\\ne &= 1 + i \\cdot i \\cdot 3 = 1 + 3i^2 = 1 - 3 = -2\n\\end{align*}\n\\]"
+  },
+  {
+    "titre": "Exercice 331",
+    "question": "\\(Pour n N, calculer in\\)",
+    "indice": "",
+    "solution": "\\[\ni^n = \n\\begin{cases}\n1 &\\text{si } n \\equiv 0 \\mod 4 \\\\\ni &\\text{si } n \\equiv 1 \\mod 4 \\\\\n-1 &\\text{si } n \\equiv 2 \\mod 4 \\\\\n-i &\\text{si } n \\equiv 3 \\mod 4\n\\end{cases}\n\\]"
+  },
+  {
+    "titre": "Exercice 332",
+    "question": "\\(Résoudre dans C léquation du premier degré 2iz + 4 = z - 4i\\)",
+    "indice": "",
+    "solution": "\\[\n2iz + 4 = z - 4i \\\\\n\\Rightarrow 2iz - z = -4 - 4i \\\\\n\\Rightarrow z(2i - 1) = -4 - 4i \\\\\n\\Rightarrow z = \\frac{-4 - 4i}{2i - 1} = \\frac{(-4 - 4i)(-1 - 2i)}{(2i - 1)(-1 - 2i)} = ...\n\\] On termine en simplifiant (calcul classique de quotient de complexes)."
+  },
+  {
+    "titre": "Exercice 333",
+    "question": "\\(Soit z = -4 1 + i\\ 3. Calculer z3. 67\\)",
+    "indice": "",
+    "solution": "On a :\n\\[\nz = \\frac{-4(1 + i)}{3} = \\frac{-4 - 4i}{3}, \\quad z^3 = \\left(\\frac{-4 - 4i}{3}\\right)^3 = \\frac{(-4 - 4i)^3}{27}\n\\]\nOn développe en utilisant l'identité remarquable ou la forme trigonométrique."
+  },
+  {
+    "titre": "Exercice 334",
+    "question": "\\(Déterminer les nombres complexes z tels que z2 = i. 68\\)",
+    "indice": "",
+    "solution": "Chercher \\( z \\) tel que \\( z^2 = i \\). On pose \\( z = a + ib \\), puis on identifie :\n\\[\nz^2 = a^2 - b^2 + 2abi = i \\Rightarrow\n\\begin{cases}\na^2 - b^2 = 0 \\\\\n2ab = 1\n\\end{cases}\n\\Rightarrow a = b, \\quad 2a^2 = 1 \\Rightarrow a = \\pm \\frac{1}{\\sqrt{2}}, \\quad z = \\pm \\frac{1 + i}{\\sqrt{2}}\n\\]"
+  },
+  {
+    "titre": "Exercice 335",
+    "question": "\\(a Quels sont les nombres complexes dont le carré est un nombre réel?b Quels sont les nombres complexes dont le carré est un nombre imaginaire pur?\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 336",
+    "question": "\\(Trouver les nombres complexes non nuls z tels que Z = z + 1 z soit réel. Idem en remplaçant réel par imaginaire pur. 67. Cet exercice devient bien plus simple avec la forme trigonométrique. 68. Nous étudierons plus généralement les racines carrées dun nombre complexe en 10. 10 et 11. 4. 119 10. 2 Conjugué et module Conjugué Le conjugué du nombre complexe z = a + ib avec a,b R2 est z = a - ib. On vérie que lapplication z - z de C dans C, dite conjugaison complexe, possède les propriétés suivantes: z, z C2, z + z = z + z et zz = z \\times z. On a, dautre part, pour z C: z R z = z et z i\\ R z = -z. Pour les deux exercices suivants, on utilisera la forme algébrique, de manière à se ramener à un système de deux équations à deux inconnues\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 337",
+    "question": "\\(Résoudre dans C les équations dinconnue z C. z = 1 - z + 3i, z + 2i\\ z + i\\ = 1\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 338",
+    "question": "\\(Résoudre léquation dinconnue z C: iz2 - 2z + z - i\\ = 0\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 339",
+    "question": "\\(Dans les questionsa,b,c, f est une application de R dans R telle que f 1 = 1 et que x,y R2, f x +y = f x + f y, f xy = f x f ya Montrer que x Q, f x = xb Soient x et y deux nombres réels tels que y x. En utilisant le nombre réel y - x, montrer que f y - f x 0. Ainsi, f est croissantec Déduire dea etb que x R, f x = x. Dans les questions suivantes, g est une application de C dans C telle que g 1 = 1 et que u,v C2, g u +v = g u + g v, g uv = g u g vd Montrer que g i\\ {-i, i}e On suppose que g R R. Montrer que g est lidentité de C ou la conjugaison complexe. 69 69. Il est par ailleurs évident que ces deux applications vérient les conditions imposées. 120 Module On introduit également le module de z = a + ib: cest lélément |z| de R+ déni\\ par |z| = a2 + b2 = z z, i. e. |z|2 = zz. Le module de z est nul si\\ et seulement si\\ z lest. La seconde écriture du module, qui\\ ne fait pas appel à lécriture algébrique, est souvent utile. Elle montre par exemple immédiatement que le module est multiplicatif: z, z C2, |zz| = |z| |z|. Une récurrence amène facilement que n N, z C, |zn| = |z|n. On en déduit que n Z, z C, |zn| = |z|n. Le conjugué et le module interviennent naturellement dès que lon calcule linverse dun nombre complexe non nul z = a + ib. En eet 1 z = z |z|2 = a a2 + b2 - i\\ b a2 + b2\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 340",
+    "question": "\\(Résoudre léquation dinconnue z C: 2z - |z|2 + 1 - 2i\\ = 0, z|z| = 2 + i\\ 3\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 341",
+    "question": "\\(Résoudre léquation dinconnue z C: z2 + 8i\\ = |z|2 - 2\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 342",
+    "question": "\\(Déterminer limage de C par lapplication f dénie par z C, f z = z + |z|. 10. 3 Représentation géométrique des nombres complexes Munissons le plan R2 du produit scalaire usuel. On associe au nombre complexe z = a + ib avec a,b R2 le point M de coordonnées a,b du plan. On dit que ce point est limage de z dans le plan, ou que z est laxe de M. On identie souvent un nombre complexe et son image; on parle alors de C comme du plan complexe. Dans la suite, nous ferons souvent cette identication sans la rappeler. On dénit également laxe du vecteur-v de coordonnées a,b comme le nombre complexe a + ib. Ainsi, laxe du point A est celle du vecteur - O A. Plus généralement, si\\ A a pour axe a et B pour axe b, le vecteur - A B a pour axe b - a. Il est souvent agréable, parfois crucial, dutiliser la représentation géométrique des nombres complexes. 121 Exemples 1. Droite passant par deux points La droite passant par les points daxes a et b est limage de lensemble des nombres complexes de la forme a + b -a avec R. En eet, si\\ on note A et B les images de A et B, la droite considérée est lensemble des points de la forme A + - A B avec R. 2. Parallélogramme Si\\ a, b, c, d sont des nombres complexes dimages respectives A, B, C, D, A B C D est un pa- rallélogramme si\\ et seulement si\\ - A B= - D C, i. e. si\\ b - a = c - d. 3. Milieu Si\\ a et b sont des nombres complexes dimages respectives A et B, le milieu de [A B] a pour axe a + b 2. 4. Conjugué Le conjugué z de z a pour image le symétrique de z par rapport à laxe réel. 5. Module, distances, cercles Le module |z| de z est la distance entre le point M et lorigine O. Plus généralement, si\\ M et M sont les points daxes z et z, on a M M = |z - z|. Ainsi, si\\ a C a pour image A et r R+, un point M du plan appartient au cercle de centre A et de rayon r si\\ et seulement si\\ son axe z vérie |z - a| = r. Les premiers exercices de ce paragraphe appellent et se résument pour beaucoup à un dessin\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 343",
+    "question": "\\(a Soient z un nombre complexe, M son image dans le plan, M le symétrique de M par rapport à Oy. Quelle est laxe z de M?b Même question pour M, symétrique de M par rapport à O\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 344",
+    "question": "\\(Décrire et représenter les images des ensembles suivants de nombres com- plexes: E = {z C; Re z = 4} F = {z C; Im z = -2}, G = {z C; Re z = Im z}, H = {z C; |z - 3 + i| = 2}, I = {z C; Im z > 0}, J = {z C; 2 Re z < 4}\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 345",
+    "question": "\\(a Déterminer lensemble des nombres complexes z tels que: |z - i| = |z + i| par deux méthodes: - par un calcul en écrivant z sous forme algébrique; - en interprétant géométriquement la relation 1b Déterminer lensemble des nombres complexes z tels que: |z - i| < |z + i| 122\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 346",
+    "question": "\\(Déterminer lensemble des nombres complexes z tels que |z| = |z - 1| = 1. Interpréter géométriquement\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 347",
+    "question": "\\(Déterminer lensemble des nombres complexes non nuls z tels que 1 + z z soit réel. Quelle est limage de cet ensemble?\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 348",
+    "question": "\\(Déterminer lensemble des nombres complexes z tels que z3 + 3z2 + 3z + 9 soit réel. Quelle est limage de cet ensemble dans le plan complexe?\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 349",
+    "question": "\\(Déterminer lensemble des nombres complexes z tels que z2 - 2i\\ = z2 + 2i. Quelle est limage de cet ensemble dans le plan complexe?\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 350",
+    "question": "\\(a Soient z et z deux nombres complexes. Montrer: |z + z|2 + |z - z|2 = 2 |z|2 + |z|2b Donner une interprétation géométrique de cette égalité en considérant un parallélogramme, les longueurs de ses côtés, les longueurs de ses diagonalesc Soient A, B, C trois points non alignés du plan, I le milieu de [B C]. Déduire deb une expression de A I2 en fonction de A B2, B C2, C A2\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 351",
+    "question": "\\(Soient z et z deux nombres complexes, M et M leurs images dans le plan complexe. Montrer quun point appartient au segment [M M ] si\\ et seulement si\\ son axe est de la forme z + 1 - z avec [0, 1]\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 352",
+    "question": "\\(Soient a, b, c trois nombres complexes, A, B, C leurs images dans le plan. On suppose que A, B, C ne sont pas alignés. Montrer que les médianes du triangle A B C passent par le point G daxe g = a + b + c 3 qui\\ est le centre de gravité du triangle A B C\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 353",
+    "question": "\\(Montrer que lensemble des nombres complexes non nuls z tels que z + 1 z = 2 a pour image la réunion de deux cercles que lon précisera. 10. 4 Nombres complexes de module 1, exponentielle imaginaire On note U lensemble des nombres complexes de module 1, cest-à-dire des a + ib avec a,b R2 et a2 + b2 = 1. Lensemble U possède les propriétés de stabilité suivantes: - si\\ z et z sont dans U, il en est de même de zz par multiplicativité du module; - si\\ z est dans U, 1 z = z est dans U. On a en fait, pour z C, z U z = 1 z, caractérisation souvent commode des éléments de U. 123 Le nombre complexe z appartient à U si\\ et seulement si\\ son image appartient au cercle de centre O et de rayon 1, autrement dit si\\ et seulement sil existe dans R tel que z = cos + i\\ sin . On note alors exp i\\ = ei\\ = cos + i\\ sin . Noter que nest pas unique. Précisément: , R2, ei\\ = ei\\ [2]. En particulier R, ei\\ = 1 0 [2]. Cette notation exponentielle imaginaire est très utile, notamment grâce à la propriété fonda- mentale suivante: 1 , R2, ei\\ ei\\ = ei\\ +. Cette relation est en fait équivalente aux formules daddition pour le cosinus et le sinus; son écriture est beaucoup plus synthétique. Elle donne linverse dun élément de U: R, ei-1 = e-i. Voici\\ quelques exemples de nombres complexes de module 1 quil est bon de connaître, ou tout au moins de savoir retrouver très vite en saidant du cercle trigonométrique. ei\\ = -1, ei/2 = i, ei/4 = 2 2 + i\\ 2 2, ei/3 = 1 2 + i\\ 3 2, e2i/3 = -1 2 + i\\ 3 2. Notons enn les formules d Euler, qui\\ expriment cos et sin en fonction de ei\\ et e-i: R, cos = 1 2 ei\\ + e-i\\ et sin = 1 2i\\ ei\\ - e-i\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 354",
+    "question": "\\(Écrire sous forme algébrique ei/6, ei5/6\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 355",
+    "question": "\\(Retrouver lexercice 108 de 4. 1 en utilisant la formule d Euler pour sin\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 356",
+    "question": "\\(Il est conseillé, dans cet exercice, déviter les parties réelles et imaginaires et de travailler avec les carrés des modules écrits avec laide du conjugué. Soit a Ca Montrer que, si\\ a C \\ U, z U, z - a 1 - az Ub Soit D = {z C; |z| < 1}. Montrer que, si\\ a D, alors z D, z - a 1 - az D. La formule de Moivre À partir de 1, un raisonnement par récurrence permet de montrer que pour tout n N, R, cos n + i\\ sin n = ein = ei\\ n = cos + i\\ sin n. Cest la formule de Moivre, que nous utiliserons en 10. 7 couplée avec la formule du binôme\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 357",
+    "question": "\\(Quels sont les n N tels que R, sin + i\\ cos n = sin n + i\\ cos n? 124 10. 5 Arguments dun nombre complexe non nul, forme trigonométrique Soit z un nombre complexe non nul. Alors w = z |z| est un nombre complexe de module 1. On peut donc écrire 1 z = |z| ei\\ avec R. Un tel est un argument de z. Attention, si\\ est un argument de z, il en est de même de tous les nombres réels congrus à modulo 2. La forme trigonométrique de z est lécriture 1. On pose souvent r = |z|, de sorte que r R+ et que 1 se réécrit 2 z = r ei. Dans cette écriture, r = |z| est la distance de limage M de z à lorigine O, une détermination de langle entre la demi\\ droite des nombres réels positifs et la demi-droite dorigine O et passant par M. Si\\ r R+, ensemble des nombres complexes de la forme rei\\ où décrit R est le cercle de centre 0 et de rayon r. Si\\ R, lensemble des nombres complexes de la forme rei\\ où r décrit R+ resp R est la demi-droite resp. la droite passant par 0 et dirigée par le vecteur daxe ei. La forme algébrique et la forme trigonométrique ont des avantages diérents. La forme trigo- nométrique est, par exemple, bien adaptée aux multiplications. En eet, si\\ z = r ei\\ et z = r ei\\ avec r et r dans R+ et et dans R, alors la forme trigonométrique de zz est: z z = r r ei\\ +\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 358",
+    "question": "\\(Soit a C. Quelle est limage de lensemble {a + 2ei; R}?\\)",
+    "indice": "",
+    "solution": ""
+  },
+  {
+    "titre": "Exercice 359",
+    "question": "\\(Soient a C, R. Quelle est limage de lensemble des nombre complexes de la forme a + rei\\ lorsque r décrit R? R+? [0, R] où R R+ est xé?\\)",
+    "indice": "",
+    "solution": ""
+  }
+]

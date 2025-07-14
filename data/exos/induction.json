@@ -1,0 +1,54 @@
+{
+  "chapitre": "Loi de l’induction",
+  "questions_cours": [
+    {
+      "id": "ind_001",
+      "question": "Définissez le flux magnétique à travers une surface. Donnez sa formule et ses unités dans le S.I.",
+      "reponse": "Le flux magnétique est défini par : Φ = ∫∫_S B·dS. Si B est uniforme et perpendiculaire à une surface plane S, alors Φ = B·S. L’unité du flux magnétique dans le Système International est le weber (Wb).",
+      "niveau": "fondamental",
+      "type": "définition + formule"
+    },
+    {
+      "id": "ind_002",
+      "question": "Quelle est la condition pour qu’un flux magnétique soit non nul à travers une surface ? Donnez un exemple.",
+      "reponse": "Il faut que le champ B ait une composante normale à la surface. Par exemple, un champ magnétique uniforme perpendiculaire à une boucle plane engendre un flux non nul.",
+      "niveau": "fondamental",
+      "type": "concept + exemple"
+    },
+    {
+      "id": "ind_003",
+      "question": "Décrivez qualitativement l’expérience de Faraday de 1831 et ce qu’elle met en évidence.",
+      "reponse": "Faraday a observé qu’un courant est induit dans une bobine lorsqu’un aimant est déplacé à proximité. Cela montre que le champ magnétique variable dans le temps crée une tension induite.",
+      "niveau": "intermédiaire",
+      "type": "expérience + interprétation"
+    },
+    {
+      "id": "ind_004",
+      "question": "Énoncez la loi de Lenz et expliquez son rôle dans l’induction électromagnétique.",
+      "reponse": "La loi de Lenz stipule que le sens du courant induit est tel qu’il s’oppose à la variation du flux magnétique qui le génère. Elle traduit la conservation de l’énergie dans le phénomène d’induction.",
+      "niveau": "intermédiaire",
+      "type": "loi + justification physique"
+    },
+    {
+      "id": "ind_005",
+      "question": "Donnez l'expression de la force électromotrice induite selon la loi de Faraday. Que signifie le signe ‘moins’ ?",
+      "reponse": "e = -dΦ/dt. Le signe ‘moins’ traduit la loi de Lenz : la f.é.m. induite s’oppose à la variation du flux.",
+      "niveau": "fondamental",
+      "type": "formule + interprétation"
+    },
+    {
+      "id": "ind_006",
+      "question": "Dans quelles situations observe-t-on une tension induite sans variation du flux ? Donnez un exemple.",
+      "reponse": "Dans les expériences de Barlow et Blondel, on observe une f.é.m. sans variation du flux magnétique total. C’est dû au déplacement du conducteur dans un champ magnétique, non à une variation du champ.",
+      "niveau": "avancé",
+      "type": "contre-exemple + analyse"
+    },
+    {
+      "id": "ind_007",
+      "question": "Expliquez comment utiliser les symétries et invariances pour déterminer la forme du champ magnétique.",
+      "reponse": "On identifie les plans et axes de symétrie du système. On en déduit les composantes nulles de B. Puis, on examine les invariances spatiales pour déduire les dépendances restantes.",
+      "niveau": "avancé",
+      "type": "méthode raisonnée"
+    }
+  ]
+}

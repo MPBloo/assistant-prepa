@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Qu'est-ce que le flux magnétique ? Donnez une définition précise et son expression.",
+    "réponse": "Le flux magnétique à travers une surface S est Φ = ∫∫_S B·dS. Il représente la quantité de champ magnétique traversant une surface."
+  },
+  {
+    "question": "Énoncez la loi de Faraday-Lenz.",
+    "réponse": "La force électromotrice induite est égale à l’opposée de la dérivée temporelle du flux magnétique : emf = - dΦ/dt."
+  },
+  {
+    "question": "Quelle est la différence entre induction et auto-induction ?",
+    "réponse": "L'induction est due à une variation de flux produite par une source externe. L'auto-induction est due à la variation du courant dans le circuit lui-même."
+  }
+]
